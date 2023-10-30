@@ -1,0 +1,410 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'ko' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Administrator/Desktop/유니티 3 수업/Endless Run
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61471
+Successfully changed project path to: C:/Users/Administrator/Desktop/유니티 3 수업/Endless Run
+C:/Users/Administrator/Desktop/유니티 3 수업/Endless Run
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 86.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/Desktop/유니티 3 수업/Endless Run/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009485 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 82.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (676ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (480ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007264 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\유니티 3 수업\Endless Run\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\유니티 3 수업\Endless Run\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.181 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1182ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (836ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.8 KB). Loaded Objects now: 3842.
+Memory consumption went from 125.9 MB to 125.8 MB.
+Total: 3.793700 ms (FindLiveObjects: 0.456900 ms CreateObjectMapping: 0.388900 ms MarkObjects: 2.840700 ms  DeleteObjects: 0.106200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 358706.781765 seconds.
+  path: Assets/Effects/Resources
+  artifactKey: Guid(f553b207639f79549bc12ac8a2681eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Resources using Guid(f553b207639f79549bc12ac8a2681eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9856787708612431ff070b39a6b75ba6') in 0.017848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Effects/Resources/Settings
+  artifactKey: Guid(f06604279c095ca4f9d12f8d8fca844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Resources/Settings using Guid(f06604279c095ca4f9d12f8d8fca844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80d9692af61c9c5b37deeeebeabdccd') in 0.007877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.180957 seconds.
+  path: Assets/Effects/Magic effects pack
+  artifactKey: Guid(ccaf0d0261bfcfe4f874cb02d8931eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack using Guid(ccaf0d0261bfcfe4f874cb02d8931eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e48a4f2661ea2b8189c5cdf383e52d') in 0.007645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.252134 seconds.
+  path: Assets/Effects/Magic effects pack/Prefabs
+  artifactKey: Guid(30f354b2984b43147b902803fe8a4ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Prefabs using Guid(30f354b2984b43147b902803fe8a4ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151eb4e0683c5f94695f719ac617c8be') in 0.007623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.927843 seconds.
+  path: Assets/Effects/Magic effects pack/Models
+  artifactKey: Guid(ad4081446914afa4e94efff5e5b27056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Models using Guid(ad4081446914afa4e94efff5e5b27056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381689102c125d03f1883ccfc4a8e4b0') in 0.007835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.851342 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/Arrow1.mat
+  artifactKey: Guid(00b2a55319476cf40b84578eb2f8c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/Arrow1.mat using Guid(00b2a55319476cf40b84578eb2f8c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17124f6c618e8842767bb48bc35dda39') in 0.151926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/Snowflake.mat
+  artifactKey: Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/Snowflake.mat using Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c214318cedbc0c7f6cd50a65b1f9088') in 0.018216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/VFXatlas.psd
+  artifactKey: Guid(670f1c056a06d7049b90d1fd1e480427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/VFXatlas.psd using Guid(670f1c056a06d7049b90d1fd1e480427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6ed43b8a649a6b7c5342b8c6dabc49') in 0.055016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/MagicCircle2.mat
+  artifactKey: Guid(b56ee68f36d76a648a742b6874f4d4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/MagicCircle2.mat using Guid(b56ee68f36d76a648a742b6874f4d4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75c36741132256089b5bfb865842558') in 0.018891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/Slash.mat
+  artifactKey: Guid(8b3cc142b0783eb40be02cde5b31ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/Slash.mat using Guid(8b3cc142b0783eb40be02cde5b31ca6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d83c2ea697d00815e8967b135318eb') in 0.059367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/Gradient.mat
+  artifactKey: Guid(2ae196836e3f6ce438e93e246a6ab900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/Gradient.mat using Guid(2ae196836e3f6ce438e93e246a6ab900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77349a59c34ee12bd9c65f766284b543') in 0.016403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/Mask1.mat
+  artifactKey: Guid(96d60590d2a3f0143a9a84d4568d9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/Mask1.mat using Guid(96d60590d2a3f0143a9a84d4568d9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bc1183cf759c46f85c31cc4a2de2bf') in 0.016489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/Star.mat
+  artifactKey: Guid(f7fb42690dbaf0d408f1f55ea89b7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/Star.mat using Guid(f7fb42690dbaf0d408f1f55ea89b7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2f8e228acb9151e9c21a4be9641614') in 0.018423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/Trail67.mat
+  artifactKey: Guid(228fc1317f61ac4408d84a68ea9822d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/Trail67.mat using Guid(228fc1317f61ac4408d84a68ea9822d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faf0bcda83ab6b56fc2d045417b38b9') in 0.024062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/Point.mat
+  artifactKey: Guid(e546d2d7171981b468cf29388d902e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/Point.mat using Guid(e546d2d7171981b468cf29388d902e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6bf1ded6f5ad812739c5857b4ee68d') in 0.017372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Effects/Magic effects pack/Materials/Floor3.mat
+  artifactKey: Guid(ca6fd35d7de69cb449d560ab9228d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Materials/Floor3.mat using Guid(ca6fd35d7de69cb449d560ab9228d502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c51193ed8d55c3e707c7febdaec9e0') in 0.259688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.348452 seconds.
+  path: Assets/Effects/Magic effects pack/Models/Cylinder.fbx
+  artifactKey: Guid(4a8c064de5d1b4045a9e9d4ebd5d6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Models/Cylinder.fbx using Guid(4a8c064de5d1b4045a9e9d4ebd5d6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef33e45c6313d2ec844591b4056711b') in 0.086898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.330796 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Arrow1.png
+  artifactKey: Guid(cd95337217b49a143a851ed79a626632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Arrow1.png using Guid(cd95337217b49a143a851ed79a626632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7101c47653402b8183d34f3da3928bfd') in 0.013347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png
+  artifactKey: Guid(a685c8f461a651a46a2631ea3decafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png using Guid(a685c8f461a651a46a2631ea3decafae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f125d399b0e602bd1a224acf1dcb78') in 0.015068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Snowflake.png
+  artifactKey: Guid(0e1a6a9f47773b7478bea4aee1a1b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Snowflake.png using Guid(0e1a6a9f47773b7478bea4aee1a1b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79705d7039906bd7b28aedb7c59a2db') in 0.012644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Splat.png
+  artifactKey: Guid(00282aad0def9f942a895c41d7389b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Splat.png using Guid(00282aad0def9f942a895c41d7389b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf8dc7b4b8911fe95bb6a3f47dbede7') in 0.011589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Flash.png
+  artifactKey: Guid(497534591604c9c40922a9ea2ef833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Flash.png using Guid(497534591604c9c40922a9ea2ef833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9435ee756ba81edf476b90d8cd4d1fb4') in 0.012548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Flare.png
+  artifactKey: Guid(96a713cc4a0aa464caab5d8fad5911e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Flare.png using Guid(96a713cc4a0aa464caab5d8fad5911e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3a7af1185d22abac3d1cc6b6fbd56c') in 0.012913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Gradient.png
+  artifactKey: Guid(878972c3151f97940b2c53535a0d1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Gradient.png using Guid(878972c3151f97940b2c53535a0d1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0ae46021b171b9c199a312cede772c') in 0.017830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Concrete slab_Height.png
+  artifactKey: Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Concrete slab_Height.png using Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b5d68546ec3a147091939002e3629d') in 0.020174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Trail67.png
+  artifactKey: Guid(c4f655f5d01f55547a23a546b58afd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Trail67.png using Guid(c4f655f5d01f55547a23a546b58afd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117b5c07d1984e73c849a201b8273da4') in 0.016473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/MagicCircle.png
+  artifactKey: Guid(3dce5bac285284a46b6cf77e52dfcd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/MagicCircle.png using Guid(3dce5bac285284a46b6cf77e52dfcd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e193be71bbd491db5da2b9d0c53929b1') in 0.018498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Heart.png
+  artifactKey: Guid(47a48c9cf6895484983862ae79cb7102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Heart.png using Guid(47a48c9cf6895484983862ae79cb7102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed8974d29d828cedc7cb4345a9ff6c0') in 0.018332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Effects/Magic effects pack/Textures/Concrete slab.png
+  artifactKey: Guid(1b13dc101cf2ac7418019fd776161658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Textures/Concrete slab.png using Guid(1b13dc101cf2ac7418019fd776161658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a782855b9422f0ec79f86b9a5f30bf3') in 0.020696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.475565 seconds.
+  path: Assets/Effects/Magic effects pack/Demo scene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(4a3abcea8684f464a9b302dd7a047387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Demo scene/Lightmap-0_comp_dir.png using Guid(4a3abcea8684f464a9b302dd7a047387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffbb77434c689f039a2ac952e9b65af') in 0.020194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Effects/Magic effects pack/Demo scene/ReflectionProbe-0.exr
+  artifactKey: Guid(b437cf6f67f5f1c4e9f1876cbbb8aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Effects/Magic effects pack/Demo scene/ReflectionProbe-0.exr using Guid(b437cf6f67f5f1c4e9f1876cbbb8aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13b703752a531aaf8e8b72c2d8031c6') in 0.024023 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006394 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\유니티 3 수업\Endless Run\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Desktop\유니티 3 수업\Endless Run\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1318ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1059ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.5 KB). Loaded Objects now: 3896.
+Memory consumption went from 129.4 MB to 129.3 MB.
+Total: 4.020500 ms (FindLiveObjects: 0.480900 ms CreateObjectMapping: 0.260700 ms MarkObjects: 3.129600 ms  DeleteObjects: 0.148200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
