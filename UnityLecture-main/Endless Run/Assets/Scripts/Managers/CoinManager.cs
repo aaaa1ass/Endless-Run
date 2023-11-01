@@ -7,29 +7,28 @@ using UnityEngine;
 public class CoinManager : MonoBehaviour
 {
     private Percentage percentage;
-
+    
     [SerializeField] bool flag;
     [SerializeField] int itemCount;
     [SerializeField] int interval = 2;
     [SerializeField] int createCount = 20;
     [SerializeField] float positionX = 3.5f;
 
-    [SerializeField] ItemManager itemManager;
     [SerializeField] GameObject rotatePrefab;
 
     [SerializeField] GameObject coinPrefab;
     [SerializeField] List<GameObject> coins;
-    [SerializeField] Transform createPosition; 
 
     void Start()
     {
         percentage = GetComponent<Percentage>();
 
-        itemManager = GameObject.Find("Item Manager").GetComponent<ItemManager>();
-
-        //Debug.Log(itemManager.CloneItem().name);
-
         CreateCoin();
+
+        Debug.Log(Resources.Load<Mesh>("Magnet").name);
+
+        coins[coins.Count - 1].GetComponent<MeshFilter>().mesh = Resources.Load<Mesh>("Batter C Low");
+        coins[coins.Count - 1].GetComponent<MeshRenderer>().material = Resources.Load<Material>("Magnet Material");
     }
 
     private void CreateCoin()
@@ -37,8 +36,6 @@ public class CoinManager : MonoBehaviour
         for(int i = 0; i < createCount; i++)
         {
             GameObject coin = Instantiate (coinPrefab);
-
-            coin.transform.SetParent(createPosition);
 
             coin.transform.localPosition = new Vector3(coin.transform.position.x, coin.transform.position.y, interval * i);
 
@@ -65,12 +62,6 @@ public class CoinManager : MonoBehaviour
         if (flag == true)
         {         
             coins[itemCount].SetActive(false);            
-
-            GameObject item = itemManager.CloneItem();
-
-            item.transform.SetParent(createPosition);
-
-            item.transform.position = coins[itemCount].transform.position;
         }
     }
 
@@ -78,17 +69,15 @@ public class CoinManager : MonoBehaviour
     {
         ActiveCoin();
 
-        createPosition.gameObject.SetActive(true);
-
         RoadLine roadLine = (RoadLine)Random.Range(-1, 2);
 
         switch (roadLine)
         {
-            case RoadLine.LEFT : createPosition.localPosition = new Vector3(-positionX, 0, 0);
+            case RoadLine.LEFT : coinPrefab.transform.localPosition = new Vector3(-positionX, 0, 0);
                 break;
-            case RoadLine.MIDDLE : createPosition.localPosition = Vector3.zero;
+            case RoadLine.MIDDLE : coinPrefab.transform.localPosition = Vector3.zero;
                 break;
-            case RoadLine.RIGHT : createPosition.localPosition = new Vector3(+positionX, 0, 0);
+            case RoadLine.RIGHT : coinPrefab.transform.localPosition = new Vector3(+positionX, 0, 0);
                 break;
         }
     }

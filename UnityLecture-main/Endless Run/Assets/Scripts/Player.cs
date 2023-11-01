@@ -80,5 +80,10 @@ public class Player : MonoBehaviour
             item.Use();
             other.GetComponent<MeshRenderer>().enabled = false;
         }
+
+        if (other.CompareTag("Obstacle"))
+        {
+            Debug.Log("Ãæµ¹");
+        }
     }
 }

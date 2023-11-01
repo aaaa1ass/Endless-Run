@@ -26,7 +26,7 @@ public class RoadManager : MonoBehaviour
     {
         for(int i = 0; i < roads.Count; i++)
         {
-            roads[i].transform.Translate(Vector3.back * speed * Time.deltaTime);
+            roads[i].transform.Translate(Vector3.back * GameManager.instance.speed * Time.deltaTime);
         }  
     }
 
@@ -41,9 +41,6 @@ public class RoadManager : MonoBehaviour
         firstRoad.transform.position = new Vector3(0, 0, newZ);
 
         roads.Add(firstRoad);
-
-        // 하위 오브젝트에 있는 CoinManager 클래스에 NewPosition() 함수를 호출합니다.
-        firstRoad.transform.GetComponentInChildren<CoinManager>().NewPosition();
     }
 
     public void Increase()
@@ -51,7 +48,7 @@ public class RoadManager : MonoBehaviour
 
         if(count < maxCount)
         {
-            speed += Util.IncreaseValue(count++);
+            GameManager.instance.speed += Util.IncreaseValue(count++);
         }
 
     }

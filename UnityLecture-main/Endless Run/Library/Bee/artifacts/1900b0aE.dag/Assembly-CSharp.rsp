@@ -366,6 +366,7 @@
 "Assets/Scripts/Managers/InterfaceManager.cs"
 "Assets/Scripts/Managers/ItemManager.cs"
 "Assets/Scripts/Managers/RoadManager.cs"
+"Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Singleton.cs"
 "Assets/Scripts/Util.cs"
