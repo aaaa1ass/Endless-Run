@@ -2019,8 +2019,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecf00ddc6c1073f4188c149af59ae571, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1706424055}
   roadLine: 0
   positionX: 3.5
+  playerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 622258658}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GameOver
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   objectSound:
     audioClip:
     - {fileID: 8300000, guid: 1071871be4e767b42b5a2da1db2db847, type: 3}

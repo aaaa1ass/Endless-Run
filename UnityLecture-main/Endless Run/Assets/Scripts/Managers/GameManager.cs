@@ -28,6 +28,7 @@ public class GameManager : Singleton<GameManager>
     {
         cameraAnimator.enabled = true;
         playerAnimator.SetTrigger("Start");
+        layoutPanel.SetActive(false);
 
         // 코루틴은 시간에 관련이 있기 때문에
         // 현재 Time.Scale이 0 이므로, WaitForSecondsRealtime을 선언합니다.
@@ -43,7 +44,7 @@ public class GameManager : Singleton<GameManager>
             count--;
         }
 
-        layoutPanel.SetActive(false);
+
         textAnimator.gameObject.SetActive(false);
 
         playerAnimator.SetLayerWeight(1, 0);
