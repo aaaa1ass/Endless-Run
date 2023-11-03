@@ -365,6 +365,7 @@
 "Assets/Scripts/Managers/GameManager.cs"
 "Assets/Scripts/Managers/InterfaceManager.cs"
 "Assets/Scripts/Managers/ItemManager.cs"
+"Assets/Scripts/Managers/ObstacleManager.cs"
 "Assets/Scripts/Managers/RoadManager.cs"
 "Assets/Scripts/Obstacle.cs"
 "Assets/Scripts/Player.cs"

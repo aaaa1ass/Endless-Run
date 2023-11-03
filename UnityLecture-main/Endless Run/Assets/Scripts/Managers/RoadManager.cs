@@ -13,6 +13,7 @@ public class RoadManager : MonoBehaviour
 
     [SerializeField] List<GameObject> roads;
 
+
     public static Action roadCallback;
 
     public void Start()
@@ -27,7 +28,8 @@ public class RoadManager : MonoBehaviour
         for(int i = 0; i < roads.Count; i++)
         {
             roads[i].transform.Translate(Vector3.back * GameManager.instance.speed * Time.deltaTime);
-        }  
+        }
+        
     }
 
     public void NewPosition()

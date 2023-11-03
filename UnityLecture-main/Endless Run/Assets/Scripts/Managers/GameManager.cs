@@ -14,6 +14,7 @@ public class GameManager : Singleton<GameManager>
 
     WaitForSecondsRealtime waitForSecondsRealtime = new WaitForSecondsRealtime(1f);
 
+
     void Start()
     {
         GameOver();
