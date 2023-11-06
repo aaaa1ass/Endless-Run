@@ -9,6 +9,7 @@ public class ButtonManager : MonoBehaviour
 {
     [SerializeField] int createCount;
     [SerializeField] Button buttonPrefab;
+    [SerializeField] GameObject optionPanel;
 
     [SerializeField] string [] titleName;
     [SerializeField] List<Button> buttons; 
@@ -56,7 +57,7 @@ public class ButtonManager : MonoBehaviour
 
     public void C()
     {
-        Debug.Log("C");
+        optionPanel.SetActive(true);
     }
 
     public void D()
