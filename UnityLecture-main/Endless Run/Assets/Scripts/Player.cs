@@ -13,21 +13,35 @@ public enum RoadLine
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] CharacterController characterController;
+    [SerializeField] Vector3 direction;
+
     [SerializeField] Animator animator;
     [SerializeField] RoadLine roadLine;
+    [SerializeField] float jumpPower = 20f;
     [SerializeField] float positionX = 3.5f;
 
     [SerializeField] UnityEvent playerEvent;
 
     [SerializeField] ObjectSound objectSound = new ObjectSound();
 
+    private void Start()
+    {
+        direction = transform.position;
+
+    }
+
     void Update()
     {
         // 캐릭터 이동 함수
         Move();
 
+        // 캐릭터 점프 함수
+        Jump();
+
         // 캐릭터 이동 상태
         Status();
+
     }
 
     public void Move()
@@ -63,15 +77,29 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void Jump()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            if(transform.position.y <= 0.01f)
+            {
+                characterController.Move(Vector3.up * jumpPower * Time.deltaTime);
+            }
+        }
+        direction.y -= 50f * Time.deltaTime;
+
+        transform.position = direction;
+    }
+
     public void Status()
     {
         switch (roadLine)
         {
-            case RoadLine.LEFT : transform.position = new Vector3( -positionX, 0, 0);
+            case RoadLine.LEFT : transform.position = new Vector3( -positionX, transform.position.y, 0);
                 break;
-            case RoadLine.MIDDLE : transform.position = Vector3.zero;
+            case RoadLine.MIDDLE : transform.position = new Vector3(0, transform.position.y, 0);
                 break;
-            case RoadLine.RIGHT : transform.position = new Vector3( +positionX, 0, 0);
+            case RoadLine.RIGHT : transform.position = new Vector3( +positionX, transform.position.y, 0);
                 break;
         }
     }
@@ -80,6 +108,12 @@ public class Player : MonoBehaviour
     {
         playerEvent.Invoke();
         animator.Play("Die");
+
+    }
+
+    public void OnGameOverUI()
+    {
+        GameManager.instance.GameOverPanel();
     }
 
     private void OnTriggerEnter(Collider other)
